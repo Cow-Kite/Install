@@ -1,6 +1,10 @@
 # 1. Ray 설치
 
+    # 기본 기능만 설치
     pip install ray
+
+    # 추가 기능도 설치 (예를 들어, rllib & serve & tune)
+    pip install "ray[rllib, serve, tune]" == 2.2.0
 
 ### dashboard 포함 설치
 
