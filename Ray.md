@@ -1,4 +1,5 @@
 # 1. Ray 설치
+### python version >= 3.7
 
     # 기본 기능만 설치
     pip install ray
