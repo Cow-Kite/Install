@@ -29,3 +29,7 @@
 
     ray start --head --dashboard-host "0.0.0.0"
 
+# 6. Ray Cluster
+
+    ray.init(address='auto')
+
