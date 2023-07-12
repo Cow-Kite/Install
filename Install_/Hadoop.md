@@ -20,31 +20,31 @@
 ### 3-1. core-site.xml
 
     <configuration>
-    <property>
-        <name>fs.defaultFS</name>
-        <value>hdfs://MN:9000</value>
-    </property>
+       <property>
+            <name>fs.defaultFS</name>
+            <value>hdfs://MN:9000</value>
+        </property>
     </configuration>
 
 ### 3-2. hdfs-site.xml
 
     <configuration>
-    <property>
-        <name>dfs.replication</name>
-        <value>2</value>
-    </property>
-    <property>
-        <name>dfs.namenode.secondary.http-address</name>
-        <value><secondnode 이름>:9868</value>
-    </property>
-    <property>
-        <name>dfs.namenode.name.dir</name>
-        <value>file:/home/<user 이름>/tools/hadoop/hadoopdata/hdfs/namenode</value>
-    </property>
-    <property>
-        <name>dfs.datanode.data.dir</name>
-        <value>file:/home/<user 이름>/tools/hadoop/hadoopdata/hdfs/datanode</value>
-    </property>
+        <property>
+            <name>dfs.replication</name>
+            <value>2</value>
+        </property>
+        <property>
+            <name>dfs.namenode.secondary.http-address</name>
+            <value><secondnode 이름>:9868</value>
+        </property>
+        <property>
+            <name>dfs.namenode.name.dir</name>
+            <value>file:/home/<user 이름>/tools/hadoop/hadoopdata/hdfs/namenode</value>
+        </property>
+        <property>
+            <name>dfs.datanode.data.dir</name>
+            <value>file:/home/<user 이름>/tools/hadoop/hadoopdata/hdfs/datanode</value>
+        </property>
     </configuration>
 
 ### 3-3. yarn-site.xml
