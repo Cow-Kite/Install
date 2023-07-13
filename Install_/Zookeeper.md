@@ -1,4 +1,4 @@
-# 1. Jookeeper 다운로드
+# 1. Zookeeper 다운로드
 
     mkdir tools
     cd /tools
@@ -25,6 +25,6 @@
     server.1=HPC01:2888:3888
     server.3=HPC03:2888:3888
 
-### 3. Jookeeper 실행
+### 3. Zookeeper 실행
 
     bin/zkServer.sh start
