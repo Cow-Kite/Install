@@ -20,8 +20,8 @@
     cp spark-defaults.conf.template spark-defaults.conf
 
     vim spark-defaults.conf
-    spark.master	                    yarn
-    spark.eventLog.enabled 	    true
+    spark.master	                        yarn
+    spark.eventLog.enabled 	                true
     spark.eventLog.dir	                    file:///tools/spark/eventLog
     spark.history.fs.logDirectory           file:///tools/spark/eventLog
 
