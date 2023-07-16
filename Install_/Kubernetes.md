@@ -18,7 +18,7 @@
     EOF
     apt-get update
 
-### 1-4. 쿠버네티스 패키지 설치 (2023.6 기준 kubeflow 사용시 1.25 버전으로 설치)
+### 1-4. 쿠버네티스 패키지 설치 (2023.06 기준 kubeflow 사용시 1.25 버전으로 설치)
 
     apt-get install -y kubelet kubeadm kubectl
     apt-mark hold kubelet kubeadm kubectl
