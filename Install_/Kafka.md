@@ -8,7 +8,7 @@
 
 # 2. 환경변수 설정
 
-    echo 'export KAFKA_HOME=/tools/kafka' >> ~/.bashrc
+    echo 'export KAFKA_HOME=/home/sykang/tools/kafka' >> ~/.bashrc
     source ~/.bashrc
 
 # 3. Kafka data_dir 생성

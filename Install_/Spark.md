@@ -22,8 +22,8 @@
     vim spark-defaults.conf
     spark.master	                        yarn
     spark.eventLog.enabled 	                true
-    spark.eventLog.dir	                    file:///tools/spark/eventLog
-    spark.history.fs.logDirectory           file:///tools/spark/eventLog
+    spark.eventLog.dir	                    file:///home/sykang/tools/spark/eventLog
+    spark.history.fs.logDirectory           file:///home/sykang/tools/spark/eventLog
 
 ### 4-2. conf/workers
 
@@ -41,9 +41,9 @@
     export SPARK_SSH_OPTS="-p 10022" 
     export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 
     export SPARK_MASTER_HOST=MN 
-    export HADOOP_HOME=/tools/hadoop 
-    export YARN_CONF_DIR=/tools/hadoop/etc/hadoop 
-    export HADOOP_CONF_DIR=/tools/hadoop/etc/hadoop
+    export HADOOP_HOME=/home/sykang/tools/hadoop 
+    export YARN_CONF_DIR=/home/sykang/tools/hadoop/etc/hadoop 
+    export HADOOP_CONF_DIR=/home/sykang/tools/hadoop/etc/hadoop
 
 # 5. 실행
 ### 5-1. Hadoop 실행 (master)
