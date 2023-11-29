@@ -45,4 +45,9 @@
 
     mkdir -p nfs
     sudo mount <NFS 서버 IP 또는 호스트 이름>:/home/sykang/nfs home/sykang/nfs
+
+# 4. 방화벽 설정
+
+    sudo ufw allow from <IP> to any port nfs
+    sudo ufw status
     
