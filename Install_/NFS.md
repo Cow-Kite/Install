@@ -1,5 +1,5 @@
 # 1. 공개키 배포 (마스터에서만 수행)
-### 1-1.directory 생성 후 키 생성
+### 1-1. Directory 생성 후 키 생성
 
     mkdir ~/.ssh
     ssh-keygen -t rsa -P ""
