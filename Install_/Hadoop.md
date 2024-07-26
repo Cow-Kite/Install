@@ -4,9 +4,9 @@
     
     mkdir tools
     cd tools
-    wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz
-    tar -xvf hadoop-3.3.4.tar.gz
-    ln -s hadoop-3.3.4 hadoop
+    wget https://downloads.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
+    tar -xvf hadoop-3.3.6.tar.gz
+    ln -s hadoop-3.3.6 hadoop
 
 # 2. 환경변수 설정
 
