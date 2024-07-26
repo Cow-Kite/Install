@@ -1,5 +1,7 @@
 # 1. Hadoop 다운로드
 
+    # https://downloads.apache.org/hadoop/common/hadoop-3.3.6/
+    
     mkdir tools
     cd tools
     wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz
