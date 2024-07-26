@@ -2,7 +2,7 @@
 
     wget https://dlcdn.apache.org/zeppelin/zeppelin-0.10.1/zeppelin-0.10.1-bin-all.tgz
     tar -xvf zeppelin-0.10.1-bin-all.tgz
-    ln -s zeppelin-0.10.1-bin-all.tgz zeppelin
+    ln -s zeppelin-0.10.1 zeppelin
 
 # 2. Zeppelin 설정 파일 수정 (Zeppelin/conf/)
 ### 2-1. Zeppelin-env.sh
